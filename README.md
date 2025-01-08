@@ -7,4 +7,6 @@ It will import the pipelines and all referenced linked services, datasets, dataf
 
 This makes migrating pipelines to other environments much easier
 
-###
+### Export Synapse Notebooks to folder structure.ps1
+This powerShell script exports all notebooks and SQL files from Synapse studio, preserving the folder structure. 
+The standard export will not recreate the folder structure. This script fills that gap
